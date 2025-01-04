@@ -90,4 +90,4 @@ plt.show()
 
 # Summary Report: Merging all extreme values and correlation data into a single report
 summary_report = {**extremes, "Correlation (Price vs Stock)": correlation.to_dict()}
-print("\nSummary Report:\n", summary_report)    
+print("\nSummary Report:\n", summary_report)
